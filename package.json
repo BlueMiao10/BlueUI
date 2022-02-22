@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/BlueMiao10/BlueUI/issues"
   },
-  "homepage": "https://github.com/BlueMiao10/BlueUI#readme"
+  "homepage": "https://github.com/BlueMiao10/BlueUI#readme",
+  "dependencies": {
+    "vue": "^3.2.31"
+  }
 }
