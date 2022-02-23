@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>Blue</title>
+  <style>
+    *{margin: 0;padding: 0;box-sizing: border-box}
+  </style>
+</head>
+<body>
+<div id="app">
+  {{message}}
+  <Button>点击</Button>
+</div>
+<script src="./node_modules/vue/dist/vue.global.js"></script>
+<script src="Button.js"></script>
+<script>
+  const App = ({
+    el:'#app',
+    data(){
+      return{
+        message:'aaa'
+      }
+    }
+  })
+  Vue.createApp(App).mount('#app')
+</script>
+</body>
+</html>
